@@ -1,0 +1,239 @@
+/*transition start*/
+/* .location-card{
+    border-radius: 2rem !important;
+} */
+
+.goto-top-btn{
+    position: fixed;
+    right:0;
+    bottom:0;
+}
+
+@media only screen and (max-width: 600px) {
+    #bang-div{
+        margin-bottom: 2rem !important;
+    }
+    .footer-content-center-mob{
+        text-align: center !important;
+    }
+    #goto-top{
+        visibility: hidden;
+    }
+  }
+
+
+
+/*==================*/
+/* POP
+/*==================*/
+
+
+
+@-webkit-keyframes pop-on-hover {
+    50% {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+  }
+  @keyframes pop-on-hover {
+    50% {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+  }
+  .pop-on-hover {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .pop-on-hover:hover, .pop-on-hover:focus, .pop-on-hover:active {
+    -webkit-animation-name: pop-on-hover;
+    animation-name: pop-on-hover;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+  /* popend */
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding:0 10px 0 10px !important;
+  }
+
+.centered-p {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding:0 10px 0 10px !important;
+  }
+
+.dot {
+    height: 28px;
+    width: 28px;
+    background-color: #5a90bb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  .card{
+    background-image: linear-gradient(to bottom, #2e3f4e, #05192b);
+    border-radius : 4rem !important;
+    border: 0 !important;
+  }
+
+.bottom {
+    position: absolute;
+    width: 50%;
+    bottom: 10px;                        
+}
+.footer-head{
+    margin-bottom: 4rem !important;
+    color:#5a90bb;
+}
+.footer-copyright{
+    font-size:12px !important;
+}
+.footer-icon{
+    color:#5a90bb;
+}
+
+.footer-logo{
+    text-align: right;
+}
+
+.footer-section{
+    padding-top: 6rem!important;
+    background-color: #09253b !important;
+    padding-bottom: 4rem!important;
+}
+
+.border-footer {
+    border-left: 2px solid #5a90bb!important;
+}
+
+.footer-p{
+    color:#5a90bb;
+    font-size:16px !important;
+}
+
+.zoom-card{
+    transition: transform .2s;
+}
+.zoom-card:hover {
+    transform: scale(1.1)
+  }
+
+.zoom {
+    transition: transform .2s;  /* Animation */
+  }
+  
+  .zoom:hover {
+    transform: translateY(-10px); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+/*transition end*/
+
+
+.establishment-head{
+    color:#6585b7 !important;
+    font-weight: 900;
+}
+.establishment-texts{
+    text-align: right;
+}
+
+.investment-strategy-head{
+    color:#72ae30 !important;
+    font-weight: 900;
+    margin-top: 14rem;
+}
+
+
+.who-we-are-head{
+    color:#48cdfa!important;
+    font-weight: 900;
+}
+.home-heads-div {
+    margin-top: 5rem;
+    ;
+}
+
+.btn-main{
+    background-image:linear-gradient(to right,  #00c38a, #008a94);
+    color: white;
+    font-size: 18px;
+    padding-right: 4rem!important;
+    padding-left: 4rem!important;
+}
+
+.nav-logo{
+    width: 19%;
+}
+.logo-text{
+    background: -webkit-linear-gradient(#00c38a,#009f94);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.main-img{
+    /* width: 45%;
+    position: absolute;
+    top: 6%; */
+    width: 100%; /* width of container */
+    height: 100%;
+}
+h1 {
+    font-size: 4.5rem !important;
+    font-weight: 900;
+    background: -webkit-linear-gradient(#00c38a,#00a094);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main-description{
+    font-size: 18px;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    /* background-image: url('../assets/img/main_bg_line1.svg'),linear-gradient(#01284a, #061726) !important; */
+    /* background-image: url("../assets/img/main_bg_line.svg"), linear-gradient(#01284a, #061726);  */
+    /* background-image: url('../assets/img/main_bg_line.svg'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-image: linear-gradient(#01284a, #061726); 
+
+    /* background-position: right 0 top 100px; */
+}
+
+/* .navbar {
+    display: inherit !important;
+    padding-top: 2.8rem !important;
+} */
+
+.navbar-light .navbar-brand {
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: rgb(0 174 144) !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(0 174 144) !important;
+}
